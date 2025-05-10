@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> हम होंगे कामयाब</title>
+    
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+   
+    <header>
+        <h1>हम होंगे कामयाब</h1>
+        <p>Quality Education for a Bright Future</p>
+        <div class="header-cta">
+            <p class="quote">"Education is not preparation for life; education is life itself." </p>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#facility">facility</a>
+        <a href="#course">course</a>
+        <a href="#fee">Fee</a>
+        <a href="#timing">Timing</a>
+    </nav>
+    <marquee direction="left" scrollamount="5" behavior="alternate" bgcolor="#fff66">
+        Addmission is  goinng on for BIHAR SI
+      </marquee>
+    
+    <section id ="facility">
+        <h2> Our Facility</h2>
+        <div class="facility-grid">
+            <div class="facility-card">
+                <img src="{% static 'wifi.png' %}" alt="wifi icon">
+                <p> high speed wifi</p>
+            </div>
+            <div class="facility-card">
+                <img src="{% static 'ac.png' %}" alt="ac icon">
+                <p> Fully AC</p>
+            </div>
+            <div class="facility-card">
+                <img src="{% static 'water.png' %}" alt="water icon">
+                <p> RO Drinking Water </p>
+            </div>
+            <div class="facility-card">
+                <img src="{% static 'teacher.png' %}" alt="teacher icon">
+                <p>  Tutor help</p>
+            </div>
+            <div class="facility-card">
+                <img src="{% static 'book.png' %}" alt="book icon">
+                <p> Book </p>
+            </div>
+            <div class="facility-card">
+                <img src="{% static 'newspaper.png' %}" alt="newspaper icon">
+                <p> Daily Newspaper </p>
+            </div>
+        </div>
+    </section>
+    <section id="course">
+        <h2> Course</h2>
+        <ul>
+            <li>SSC</li>
+            <li>BANKING</li>
+            <li>RAILWAYS</li>
+            <li>BPSC</li>
+            <li>TEACHER</li>
+            <li>SET PRACTICE</li>
+        </ul>
+    </section>
+    <section id ="fee">
+        <h2> Fee Structure</h2>
+        <p><strong>Admission: </strong>RS 300</p>
+        <p><strong>Fee: </strong>RS 250/month</p>
+    </section>
+    <section id="timing">
+        <h2> Class Timing</h2>
+        <p><strong>Monday to Saturday </strong>
+        <ul>
+            <li>Evening Batch: 6:30 PM to 9:00 PM</li>
+        </ul>
+        <p><strong>Sunday: </strong>Revision</p>
+    </section>
+    <div class="contact-grid">
+        <a href="tel:+911234567890" class="contact-card">
+            <img src="{% static 'phone.png' %}" alt="phone icon">
+            <p>Click to call us: +911234567890</p>
+        </a>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Fida Hussain Road jehanabad</p>
+                <p><i class="fas fa-envelope"></i> abc@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +911234567890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Review</h3>
+                <ul>
+                    <li>Expert Faculty</li>
+                    <li>Modern Facilities</li>
+                    <li>Competitive Preparation</li>
+                    <li>Affordable Fee Structure</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Mission A Job is dedicated to empowering students with quality education and comprehensive preparation for competitive exams. Our mission is to create successful professionals through personalized guidance and modern learning facilities.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mission A Job. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
